@@ -50,8 +50,8 @@
     // Validate password
     if(empty($password)){
       $password_err = 'Please enter password';
-    } elseif(strlen($password < 6)){
-      $password_err = 'Password must be at least 6 characters';
+    } elseif(strlen($password) < 6){
+      $password_err = 'Password must be at least 6 characters ';
     }
 
     // Validate Confirm password
